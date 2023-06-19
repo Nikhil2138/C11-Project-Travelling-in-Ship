@@ -17,9 +17,6 @@ function setup(){
 
   // Moving background
   sea=createSprite(400,200);
-  sea.addImage(seaImg);
-  sea.scale=0.3;
-
   
   ship = createSprite(130,200,30,30);
   ship.addAnimation("movingShip",shipImg1);
